@@ -9,7 +9,7 @@ function setup(){
     canvas.position(600,150);
 
     posenet=ml5.poseNet(video,modelloaded);
-    posenet.on("pose",getposes);
+    posenet.on("pose",gotposes);
     
 }
 
